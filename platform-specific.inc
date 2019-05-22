@@ -64,7 +64,7 @@ static int default_RNG(uint8_t *dest, unsigned size) {
     close(fd);
     return 1;
 }
-#define default_RNG_defined 1
+//#define default_RNG_defined 1
 
 #endif /* platform */
 
